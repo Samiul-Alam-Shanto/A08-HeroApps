@@ -1,0 +1,722 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_(2019).svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "Facebook connects people around the world by making it easy to share updates, photos, and life moments. The app provides a familiar feed experience where you can follow friends, family, and public pages to stay informed and entertained.\n\nBeyond personal posts, Facebook supports Groups and Events to help people organize around interests or local activities. Pages let creators and businesses build communities, post announcements, and run promotions. The platform includes messaging and calling features for private conversations.\n\nFacebook also offers discovery tools, Watch for videos, Marketplace for local buying and selling, and settings to manage privacy and notifications. It’s built for both casual social use and managing a presence if you represent a brand or community.",
+    "size": 75,
+    "reviews": 1245824,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 475824 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Instagram is a visual-first social app for sharing photos, short videos, and stories. It focuses on creative expression with filters, editing tools, and immersive formats designed for quick consumption.\n\nCreators use Instagram to post an aesthetic feed, publish Reels (short-form videos), and engage audiences via Stories and Live streams. Businesses rely on the platform for shoppable posts, branded content, and influencer marketing.\n\nThe app includes direct messaging, Explore discovery to find trending content, and tools to manage professional accounts and analytics. Instagram is built to showcase creativity and help users discover new creators and trends.",
+    "size": 65,
+    "reviews": 980234,
+    "ratingAvg": 4.3,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 430234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "WhatsApp is a secure messaging platform offering text, voice, and video calls with end-to-end encryption. It’s designed for fast, private communication between individuals and groups across the globe.\n\nBeyond messaging, WhatsApp supports group chats, voice notes, file sharing, and status updates that disappear after a day. Businesses can use WhatsApp Business to communicate with customers via catalogs, automated replies, and order updates.\n\nThe app is lightweight and prioritizes reliability on varying network conditions. With cross-platform availability and phone-number-based identity, WhatsApp focuses on keeping conversations simple and private.",
+    "size": 40,
+    "reviews": 2103456,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1593456 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Facebook_Messenger_logo_2020.svg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 4,
+    "description": "Messenger is a companion messaging app for instant chats, voice and video calls, and group conversations. It integrates with Facebook to let you reach friends quickly and supports rich media sharing.\n\nMessenger includes features like chat heads (on some platforms), stickers, games, and ephemeral media. It supports group call features and in-chat collaborative experiences like polls and watch-together sessions.\n\nSecurity options include secret conversations for end-to-end encrypted chats. Messenger also extends into business messaging for customer support and appointment coordination.",
+    "size": 60,
+    "reviews": 756123,
+    "ratingAvg": 4.2,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 110000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 336123 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/X_logo.svg",
+    "title": "X (Twitter)",
+    "companyName": "X Corp. (formerly Twitter, Inc.)",
+    "id": 5,
+    "description": "X is a microblogging platform for short posts, links, and public conversations. Users share thoughts, news, and media while following interests and public figures worldwide.\n\nThe timeline mixes algorithmic recommendations and chronological feeds. X supports text posts, images, video, and live threads. It’s widely used for real-time news, debates, and trend discovery.\n\nFeature sets vary across time, and X offers verification, lists, Spaces (live audio), and tools for advertisers and creators to reach audiences. It remains a go-to place for fast public discourse.",
+    "size": 30,
+    "reviews": 890123,
+    "ratingAvg": 3.9,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 160000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 290123 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "YouTube is the world’s largest video platform for watching, uploading, and sharing videos. From tutorials and music videos to live streams and vlogs, YouTube hosts diverse content for every interest.\n\nCreators use YouTube to build channels, monetize content, and interact with fans through comments, premieres, and community posts. The platform’s recommendation engine helps viewers discover new creators and playlists.\n\nYouTube supports subscriptions, playlists, offline downloads, and live streaming tools. With studio analytics, creators can track performance and grow their audience over time.",
+    "size": 95,
+    "reviews": 2356123,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1636123 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.svg",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 7,
+    "description": "Gmail is a powerful email client offering fast search, threaded conversations, smart categorization, and spam filtering. It integrates tightly with Google Workspace services for productivity.\n\nThe app provides push notifications, offline access, multiple account support, and advanced search operators. Built-in automation like Smart Reply and schedule send helps manage email efficiently.\n\nGmail also supports labels, filters, and strong security features such as two-step verification and enhanced phishing protection. It’s suitable for both personal use and business communication.",
+    "size": 55,
+    "reviews": 1120034,
+    "ratingAvg": 4.4,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 700994 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Google_Maps_icon_%282014-2020%29.svg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Google Maps helps you navigate the world with driving, walking, transit, and biking directions. It provides live traffic updates, estimated arrival times, and alternate route suggestions.\n\nBeyond navigation, Maps offers local business info, reviews, photos, and street-level imagery. You can save places, create lists, and share locations with friends or colleagues.\n\nWith offline maps and real-time updates, Google Maps is useful for everyday commutes and exploring new destinations. Integration with events and reservations adds convenience for planning trips.",
+    "size": 90,
+    "reviews": 1430021,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1024996 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Google_Drive_icon_%282014-2020%29.svg",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Google Drive offers cloud storage for documents, photos, and files with real-time collaboration. It syncs across devices and integrates with Google Docs, Sheets, and Slides for seamless productivity.\n\nDrive supports sharing with fine-grained permissions, version history, and search powered by Google’s indexing. Large files can be stored and shared easily with link access control.\n\nWith offline access and automatic backup features, Drive is useful for personal backups and team collaboration. Admin and enterprise controls help organizations manage data securely.",
+    "size": 85,
+    "reviews": 802345,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 447320 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Chrome is a fast, minimalist web browser that prioritizes speed and compatibility. It provides robust tab management, extensions, and synchronization across devices using your Google account.\n\nBuilt-in features include safe browsing, password and autofill management, and developer tools for web development. Chrome’s extension ecosystem allows users to customize browsing with productivity and accessibility tools.\n\nChrome balances performance and simplicity while offering settings to control privacy and site permissions. Progressive Web App support lets websites behave like native apps on some devices.",
+    "size": 120,
+    "reviews": 934567,
+    "ratingAvg": 4.2,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 519567 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 11,
+    "description": "Spotify is a streaming platform for music and podcasts offering personalized playlists, curated mixes, and on-demand playback. It delivers tailored recommendations based on listening habits.\n\nThe app supports offline listening, collaborative playlists, and social sharing. Podcasts and exclusive content broaden the audio experience beyond music.\n\nArtists and creators can use Spotify for Artists to track statistics, promote releases, and engage listeners. Premium subscriptions remove ads and unlock higher-quality audio and offline features.",
+    "size": 80,
+    "reviews": 1320456,
+    "ratingAvg": 4.7,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 975456 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_N_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 12,
+    "description": "Netflix is a subscription video streaming service offering movies, TV series, and original content across genres. It focuses on personalized recommendations and binge-ready shows.\n\nFeatures include downloading for offline viewing, user profiles for separate recommendations, and 4K streaming on supported plans. Netflix’s Originals produce globally popular series and films.\n\nThe platform aims to surface new content through curated rows, genres, and algorithmic suggestions while supporting family-friendly controls and subtitles in many languages.",
+    "size": 110,
+    "reviews": 1503456,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 640456 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 13,
+    "description": "TikTok is a short-form video platform focused on creative, bite-sized clips and trends. Users create, remix, and share videos set to music or audio snippets, often with fast editing and effects.\n\nThe For You feed provides algorithmic discovery of trending creators, challenges, and viral content. TikTok’s tools make it easy to add filters, transitions, captions, and music overlays.\n\nCreators grow via trends, hashtags, and collaborations. The app supports direct messaging, live streams, and monetization options like gifts and creator funds on eligible accounts.",
+    "size": 70,
+    "reviews": 2100456,
+    "ratingAvg": 4.5,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1601456 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Snapchat_logo.svg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 14,
+    "description": "Snapchat is a multimedia messaging app known for ephemeral photos and videos called Snaps that disappear after viewing. It emphasizes playful filters, lenses, and AR experiences.\n\nSnapchat’s Stories allow sending a sequence of Snaps viewable for 24 hours. The app also supports private chats, group stories, and Discover content from publishers.\n\nWith Bitmoji avatars and location-based Snap Map features, Snapchat blends social sharing with playful personalization. It appeals particularly to younger audiences seeking casual, immediate communication.",
+    "size": 55,
+    "reviews": 690123,
+    "ratingAvg": 4.0,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 290123 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation (Microsoft)",
+    "id": 15,
+    "description": "LinkedIn is a professional networking platform for career growth, hiring, and industry content. It connects professionals via profiles, posts, and company pages.\n\nUsers can search jobs, apply directly, and interact with company recruiters. LinkedIn Learning offers courses to build skills and certifications to showcase on profiles.\n\nThe feed features professional updates, articles, and thought leadership. Premium tiers offer enhanced recruiting and job-seeking tools for deeper insights and outreach.",
+    "size": 78,
+    "reviews": 340123,
+    "ratingAvg": 4.3,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 142123 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest_logo.svg",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 16,
+    "description": "Pinterest is a visual discovery engine for finding ideas and inspiration, from recipes and home projects to fashion and travel. Users save Pins to boards to plan projects and collect ideas.\n\nSearch and personalized recommendations surface related images and tutorials. Pinterest supports shopping features where users can view product details and links.\n\nCreators and brands use Pinterest to showcase inspiration-driven content and drive referral traffic to websites and stores through Pins and promoted content.",
+    "size": 45,
+    "reviews": 290123,
+    "ratingAvg": 4.2,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 123123 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Reddit_logo.svg",
+    "title": "Reddit",
+    "companyName": "Reddit, Inc.",
+    "id": 17,
+    "description": "Reddit is a collection of communities where people share news, ask questions, and discuss topics across countless interests—called subreddits. Each community has its own moderators and culture.\n\nContent is voted up or down by users, which determines visibility. Reddit supports text posts, links, images, and AMAs (Ask Me Anything) featuring notable guests.\n\nThe platform is centered on discussion, community moderation, and topic-based discovery. Users build reputations through karma and can follow subreddits for tailored feeds.",
+    "size": 50,
+    "reviews": 410234,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 135234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Amazon_icon.svg",
+    "title": "Amazon",
+    "companyName": "Amazon.com, Inc.",
+    "id": 18,
+    "description": "Amazon is an ecommerce marketplace and shopping app that lets you browse products, compare prices, and order with fast shipping options. It includes personalized recommendations and wish lists.\n\nThe app supports order tracking, easy returns, and digital content like Kindle books and Prime Video. Subscriptions like Amazon Prime bundle shipping, streaming, and special deals.\n\nSellers and small businesses can list products and manage orders through seller tools. The app is built for quick purchasing and long-term account management.",
+    "size": 140,
+    "reviews": 1850123,
+    "ratingAvg": 4.4,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 930123 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ebay_logo.svg",
+    "title": "eBay",
+    "companyName": "eBay Inc.",
+    "id": 19,
+    "description": "eBay is an online marketplace for auctions and fixed-price listings where individuals and businesses buy and sell new or used items. It supports bidding, immediate purchase, and seller feedback.\n\nThe app helps manage listings, offers, and shipping directly from mobile. Buyers can use saved searches, watchlists, and seller ratings to make confident purchases.\n\nPayment protections and dispute resolution help ensure safer transactions between buyers and sellers. eBay supports a global marketplace across many categories.",
+    "size": 70,
+    "reviews": 402345,
+    "ratingAvg": 4.0,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 117345 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Uber_logo_2018.svg",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 20,
+    "description": "Uber connects riders to drivers for on-demand rides and offers food delivery through Uber Eats. It provides fare estimates, driver tracking, and multiple ride options depending on budget and vehicle type.\n\nThe app includes safety features like trip sharing and driver ratings. Payment is cashless with stored payment methods and in-app receipts.\n\nDrivers use the partner app to accept trips, navigate, and manage earnings. Uber also integrates promotions and scheduled rides for convenience.",
+    "size": 35,
+    "reviews": 512345,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 157345 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Lyft_logo_%282020%29.svg",
+    "title": "Lyft",
+    "companyName": "Lyft, Inc.",
+    "id": 21,
+    "description": "Lyft is a ride-hailing service offering rides, carpooling, and scooter rentals in supported cities. The app focuses on local rides with an emphasis on driver and rider experience.\n\nLyft provides fare estimates, driver tracking, and split payment options. It supports scheduled rides and in-app tipping for drivers.\n\nThe platform emphasizes customer support and community features, including accessibility options and partnerships with local transit initiatives.",
+    "size": 36,
+    "reviews": 210123,
+    "ratingAvg": 4.0,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 855123 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 22,
+    "description": "Airbnb helps travelers book unique homes, experiences, and boutique stays around the world. Hosts list spaces and guests can browse photos, reviews, and amenities to find a fit.\n\nThe app includes filters for dates, price, property type, and amenities, along with secure messaging between guests and hosts. Booking and cancellation policies vary by listing.\n\nAirbnb Experiences lets guests join local tours, classes, and activities offered by local hosts. Safety features, identity verification, and review systems aim to build trust in the community.",
+    "size": 95,
+    "reviews": 410345,
+    "ratingAvg": 4.4,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 165345 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings, Inc.",
+    "id": 23,
+    "description": "PayPal is a digital payments platform that allows individuals and businesses to send and receive money securely. It supports payments, invoicing, and marketplace transactions.\n\nUsers can link bank accounts, cards, and keep a PayPal balance for purchases. The service includes buyer and seller protections, dispute resolution, and easy checkout across partner websites.\n\nPayPal also offers integration options for merchants and supports P2P transfers, subscription billing, and multi-currency capabilities for global transactions.",
+    "size": 45,
+    "reviews": 510234,
+    "ratingAvg": 4.2,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 45000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 205234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Venmo_logo.svg",
+    "title": "Venmo",
+    "companyName": "PayPal (Venmo)",
+    "id": 24,
+    "description": "Venmo is a social payments app for sending money to friends and making purchases. It combines payments with a social feed that shows payment notes and emojis (amounts are private by default).\n\nVenmo supports bank transfers, debit card payments, and in-app purchases at participating merchants. Instant transfers are available for a small fee.\n\nDesigned for simple peer-to-peer payments, Venmo is popular for splitting bills, reimbursing friends, and sharing small purchases among social groups.",
+    "size": 25,
+    "reviews": 301234,
+    "ratingAvg": 4.1,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 146234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_word_icon_%282018-present%29.svg",
+    "title": "Microsoft Word",
+    "companyName": "Microsoft Corporation",
+    "id": 25,
+    "description": "Microsoft Word is a full-featured word processor for creating, editing, and formatting documents. It provides templates, rich formatting tools, and collaboration features via cloud integration.\n\nReal-time co-authoring allows multiple people to edit a document simultaneously. Word supports advanced layout options, citations, mail merge, and export to multiple formats including PDF.\n\nIntegrated with Microsoft 365, Word connects with OneDrive for file storage and offers version history, comments, and review tools used in professional and academic settings.",
+    "size": 120,
+    "reviews": 701234,
+    "ratingAvg": 4.6,
+    "downloads": 900000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 366234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_Excel_%282018-present%29.svg",
+    "title": "Microsoft Excel",
+    "companyName": "Microsoft Corporation",
+    "id": 26,
+    "description": "Excel is a spreadsheet application for data analysis, financial modeling, and reporting. It offers formulas, pivot tables, charts, and powerful data tools for professional use.\n\nUsers can build dashboards, automate tasks, and collaborate with colleagues through shared workbooks. Excel integrates with Power Query and Power BI for advanced analytics.\n\nWith templates and add-ins, Excel is widely used across industries for budgeting, forecasting, and data visualization tasks.",
+    "size": 130,
+    "reviews": 562345,
+    "ratingAvg": 4.7,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 273345 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Microsoft_Office_PowerPoint_%282018-present%29.svg",
+    "title": "Microsoft PowerPoint",
+    "companyName": "Microsoft Corporation",
+    "id": 27,
+    "description": "PowerPoint is a presentation tool for creating slideshows with text, images, animations, and embedded media. It provides design ideas and templates to improve slide aesthetics.\n\nCollaboration and presenter tools enable shared editing, presenter view, and slide rehearsal. Export options include video and PDF formats for broad distribution.\n\nUsed for education, business, and conferences, PowerPoint helps convey ideas visually with charts, SmartArt, and integrated multimedia.",
+    "size": 125,
+    "reviews": 451234,
+    "ratingAvg": 4.5,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 130000 },
+      { "name": "5 star", "count": 248221 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/OneDrive_logo.svg",
+    "title": "OneDrive",
+    "companyName": "Microsoft Corporation",
+    "id": 28,
+    "description": "OneDrive is cloud storage for files and photos with synchronization across devices and tight integration with Microsoft 365. It supports file sharing and collaborative editing of Office documents.\n\nAutomatic photo backup, version history, and offline access make OneDrive useful for personal and business storage. Admin controls in business plans help secure enterprise data.\n\nOneDrive’s search and organization tools streamline file retrieval and support selective sync for large folders. It’s tailored for teams and individuals working within Microsoft’s productivity ecosystem.",
+    "size": 82,
+    "reviews": 302345,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 99533 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Zoom_Communications_logo.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 29,
+    "description": "Zoom provides video conferencing, webinars, and virtual meeting rooms for teams, educators, and creators. It supports gallery view, screen sharing, and breakout rooms for collaborative sessions.\n\nFeatures include meeting scheduling, cloud recording, and integration with calendar tools. Hosts can moderate participants, use polling, and manage Q&A during webinars.\n\nZoom aims to deliver reliable video and audio on diverse network conditions and supports virtual backgrounds, live transcription, and meeting security features.",
+    "size": 88,
+    "reviews": 901234,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 546234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies (Salesforce)",
+    "id": 30,
+    "description": "Slack is a team communication tool centered on channels, direct messages, and integrations. It helps teams collaborate asynchronously while keeping conversations organized by topic.\n\nWith searchable message history, file sharing, and app integrations, Slack connects workflows across services. Threading and reactions help reduce noise while maintaining context.\n\nWorkspace admins can control permissions, integrate bots, and set retention policies. Slack is designed to replace internal email with a more dynamic, searchable chat experience.",
+    "size": 75,
+    "reviews": 403210,
+    "ratingAvg": 4.2,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 176210 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Discord_logo.svg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 31,
+    "description": "Discord is a chat platform originally focused on gamers and now used by many communities for voice, video, and text communication. Servers host channels by topic, allowing organized group conversations.\n\nIt supports low-latency voice channels, direct messages, screen sharing, and integrations with streaming platforms. Roles and permissions let admins manage community access and moderation.\n\nDiscord provides Nitro subscriptions for enhanced features like higher-quality streaming, custom emojis, and larger upload limits. It’s used by communities ranging from gaming clans to hobby groups.",
+    "size": 68,
+    "reviews": 502345,
+    "ratingAvg": 4.5,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 140000 },
+      { "name": "5 star", "count": 227345 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 32,
+    "description": "Telegram is a cloud-based messaging app emphasizing speed and security with options for secret chats and self-destructing messages. It supports large group chats and channels for broadcasting.\n\nUsers can send files of many types and sizes, create bots for automation, and use powerful search and folder organization. The platform’s API enables custom integrations and bots.\n\nTelegram provides cross-device syncing and public channels for large audiences. Privacy and speed are central to its design, while the feature set aims to serve both casual and power users.",
+    "size": 45,
+    "reviews": 401234,
+    "ratingAvg": 4.4,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 140000 },
+      { "name": "5 star", "count": 189234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Signal_logo.svg",
+    "title": "Signal",
+    "companyName": "Signal Messenger LLC",
+    "id": 33,
+    "description": "Signal is a privacy-first messaging app offering end-to-end encryption for text, voice, and video calls. It focuses on minimal data retention and secure communications.\n\nFeatures include disappearing messages, encrypted group chats, and minimal metadata storage. The app is open source, allowing public review of its security implementations.\n\nSignal is favored by users and privacy advocates seeking maximum confidentiality in everyday messaging and offers cross-platform compatibility and secure media sharing.",
+    "size": 30,
+    "reviews": 210345,
+    "ratingAvg": 4.7,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 128345 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dropbox_logo_2017.svg",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 34,
+    "description": "Dropbox is a cloud storage and file-syncing service with tools for file collaboration, preview, and comments. It keeps files synchronized across multiple devices and supports selective syncing.\n\nBusiness plans add team folders, admin controls, and file recovery features. Users can share links with permissions and track version history of documents.\n\nDropbox integrates with productivity apps and offers scanning and document organization features for personal and professional use.",
+    "size": 60,
+    "reviews": 301234,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 871234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Etsy_logo.svg",
+    "title": "Etsy",
+    "companyName": "Etsy, Inc.",
+    "id": 35,
+    "description": "Etsy is a marketplace for handmade, vintage, and craft supplies where independent sellers list unique goods. Buyers can discover one-of-a-kind items and support small businesses and creators.\n\nThe app includes curated collections, seller shops, and messaging to ask sellers questions. Sellers manage listings, orders, and shipping from the app.\n\nEtsy emphasizes community, storytelling about creators, and specialized search to help customers find niche items and handcrafted goods.",
+    "size": 50,
+    "reviews": 210234,
+    "ratingAvg": 4.2,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 57822 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Hulu_logo.svg",
+    "title": "Hulu",
+    "companyName": "Hulu (Disney)",
+    "id": 36,
+    "description": "Hulu is a streaming service for TV shows, movies, and original content, offering both on-demand streaming and live TV packages. It provides personalized recommendations and downloads on supported plans.\n\nHulu’s library includes recent episodes from network TV, classics, and originals. The app supports multiple profiles, watchlists, and parental controls.\n\nLive TV subscribers can access sports, news, and live events while on-demand viewers enjoy ad-supported and ad-free tiers depending on subscription choice.",
+    "size": 98,
+    "reviews": 301234,
+    "ratingAvg": 4.3,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 126234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Apple_Music_logo.svg",
+    "title": "Apple Music",
+    "companyName": "Apple Inc.",
+    "id": 37,
+    "description": "Apple Music is a subscription-based streaming service with a catalog of songs, curated playlists, and exclusive releases. It integrates with the Apple ecosystem and supports offline downloads.\n\nThe app provides radio stations, artist pages, and recommendations tuned to listener tastes. Library syncing via iCloud keeps playlists consistent across devices.\n\nFor artists, Apple Music offers analytics and promotional opportunities. The service emphasizes high-quality audio and seamless integration with Apple hardware.",
+    "size": 85,
+    "reviews": 401234,
+    "ratingAvg": 4.5,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 216234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/App_Store_%28iOS%29.svg",
+    "title": "App Store",
+    "companyName": "Apple Inc.",
+    "id": 38,
+    "description": "The App Store is Apple’s marketplace for iPhone and iPad apps and games. It features curated collections, editorial content, charts, and personalized recommendations.\n\nDevelopers submit apps for review, and the store provides ratings, reviews, and in-app purchase mechanisms. App bundles and subscriptions help developers monetize.\n\nThe App Store emphasizes quality, security, and privacy by enforcing app review guidelines and platform policies for developers and users alike.",
+    "size": 30,
+    "reviews": 601234,
+    "ratingAvg": 4.6,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 287234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Google_Play_2016_icon.svg",
+    "title": "Google Play Store",
+    "companyName": "Google LLC",
+    "id": 39,
+    "description": "Google Play Store is the main marketplace for Android apps, games, movies, books, and other digital content. It includes editorial picks, user reviews, and developer pages.\n\nThe Play Store provides app updates, in-app purchase handling, and developer distribution options. User ratings and reviews help inform downloads and discoverability.\n\nPlay Protect scans apps for security, and parental controls help manage content for families. The store supports a global developer ecosystem.",
+    "size": 40,
+    "reviews": 1201234,
+    "ratingAvg": 4.4,
+    "downloads": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 777234 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/WhatsApp_icon.png",
+    "title": "Facebook Pages Manager",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 40,
+    "description": "Pages Manager (now integrated into Facebook Business Suite) helps page owners manage posts, messages, and insights in one place. It’s focused on maintaining a brand presence on Facebook and Instagram.\n\nUsers can schedule posts, reply to comments and DMs, view analytics, and manage ad post boosts. Small businesses benefit from consolidated tools for content publishing and audience engagement.\n\nWith cross-platform integration, owners can maintain consistent messaging across social channels and use insights to refine posting strategies and audience targeting.",
+    "size": 62,
+    "reviews": 150123,
+    "ratingAvg": 4.0,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 13123 }
+    ]
+  }
+]
