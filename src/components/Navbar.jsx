@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import githubImg from "../assets/github.png";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   const activeStyle = ({ isActive }) =>
@@ -18,7 +18,7 @@ const Navbar = () => {
       <NavLink to="/apps" className={activeStyle}>
         Apps
       </NavLink>
-      <NavLink to="" className={activeStyle}>
+      <NavLink to="/installation" className={activeStyle}>
         Installation
       </NavLink>
     </>
@@ -51,10 +51,13 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <div className="flex items-center gap-1 cursor-pointer">
-          <img className="w-8" src={logo} alt="" />
-          <p className="font-bold text-2xl text-gradient ">HERO.IO</p>
-        </div>
+        <Link to="/">
+          {" "}
+          <div className="flex items-center gap-1 cursor-pointer">
+            <img className="w-8" src={logo} alt="" />
+            <p className="font-bold text-2xl text-gradient ">HERO.IO</p>
+          </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>

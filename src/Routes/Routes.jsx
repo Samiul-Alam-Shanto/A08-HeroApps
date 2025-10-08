@@ -3,10 +3,14 @@ import { createBrowserRouter } from "react-router";
 import Root from "../Pages/Root";
 import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
+import Installation from "../Pages/Installation";
+import AppDetails from "../Pages/AppDetails";
+import ErrorPage from "../Pages/ErrorPages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage />,
     Component: Root,
     children: [
       {
@@ -17,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "/apps",
         Component: Apps,
+      },
+      {
+        path: "/apps/:id",
+        Component: AppDetails,
+      },
+      {
+        path: "/installation",
+        Component: Installation,
       },
     ],
   },

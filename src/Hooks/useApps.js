@@ -1,5 +1,5 @@
 import axios from "axios";
-import { use, useEffect } from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 
 const useApps = () => {
@@ -9,9 +9,9 @@ const useApps = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios("./appsData.json")
+    axios("../appsData.json")
       .then((data) => setApps(data.data))
-      .then((err) => setError(err))
+      .catch((err) => setError(err))
       .finally(() => setLoading(false));
   }, []);
 
