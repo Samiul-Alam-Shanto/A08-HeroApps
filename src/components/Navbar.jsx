@@ -51,7 +51,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 cursor-pointer">
           <img className="w-8" src={logo} alt="" />
           <p className="font-bold text-2xl text-gradient ">HERO.IO</p>
         </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
         <a
           href="https://github.com/Samiul-Alam-Shanto"
           target="_blank"
-          className="btn  bg-gradient "
+          className="btn  bg-gradient hover:animate-pulse "
         >
           <img src={githubImg} alt="github logo" />
           Contribute
