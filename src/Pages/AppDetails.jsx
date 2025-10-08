@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import { Download, HandHeart, Star } from "lucide-react";
@@ -15,12 +15,18 @@ import {
   Cell,
 } from "recharts";
 import AppDetailsError from "./ErrorPages/AppDetailsError";
+import Loading from "../components/Loading";
+import { addToInstallLS, getInstalledApp } from "../utilities/addToLS";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
+  const [installedApps, setInstalledApps] = useState(getInstalledApp());
+
   const { apps, loading } = useApps();
   const { id } = useParams();
+
   const app = apps.find((p) => p.id == id);
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <Loading />;
   if (!app) {
     return <AppDetailsError />;
   }
@@ -35,6 +41,14 @@ const AppDetails = () => {
     reviews,
     ratings,
   } = app;
+
+  const handleInstallBtn = (id) => {
+    toast(`${title} Installed`);
+    addToInstallLS(id);
+    setInstalledApps(getInstalledApp());
+  };
+
+  const isInstalled = installedApps.includes(id);
 
   return (
     <div className="container mx-auto px-2 py-8">
@@ -91,8 +105,16 @@ const AppDetails = () => {
               </div>
             </div>
           </div>
-          <button className="py-1 px-2 rounded-sm bg-[#00D390] text-white cursor-pointer ">
-            Install Now ({size}MB)
+          <button
+            disabled={isInstalled}
+            onClick={() => handleInstallBtn(id)}
+            className={`py-1 px-2 rounded-sm text-white ${
+              isInstalled
+                ? "bg-gray-400 cursor-not-allowed"
+                : "bg-[#00D390] cursor-pointer"
+            }`}
+          >
+            {isInstalled ? "Installed" : `Install Now (${size}MB)`}
           </button>
         </div>
       </div>

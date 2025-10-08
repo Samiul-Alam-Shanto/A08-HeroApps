@@ -3,9 +3,9 @@ import { createBrowserRouter } from "react-router";
 import Root from "../Pages/Root";
 import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
-import Installation from "../Pages/Installation";
 import AppDetails from "../Pages/AppDetails";
 import ErrorPage from "../Pages/ErrorPages/ErrorPage";
+import MyInstallation from "../Pages/MyInstallation";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/installation",
-        Component: Installation,
+        Component: MyInstallation,
       },
     ],
   },
