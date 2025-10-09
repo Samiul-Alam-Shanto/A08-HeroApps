@@ -1,6 +1,6 @@
 import { Download, Star } from "lucide-react";
 import React from "react";
-import { toast } from "react-toastify";
+import Swal from "sweetalert2";
 
 const InstalledAppCard = ({
   installedApp,
@@ -10,14 +10,32 @@ const InstalledAppCard = ({
   const { id, title, downloads, ratingAvg, image, size } = installedApp;
 
   const handleUninstall = (appId) => {
-    const installedAppsNum = installedApps.map((id) => Number(id));
-    const updatedInstalledApps = installedAppsNum.filter(
-      (installedAppId) => installedAppId !== appId
-    );
-    const updatedInstalledAppsSTR = JSON.stringify(updatedInstalledApps);
-    localStorage.setItem("appList", updatedInstalledAppsSTR);
-    setInstalledApps(updatedInstalledApps);
-    toast.success(`${title} Uninstalled`);
+    Swal.fire({
+      title: "Do you want to uninstall?",
+      showDenyButton: true,
+      showCancelButton: true,
+      confirmButtonText: "Yes",
+      denyButtonText: "No",
+      customClass: {
+        actions: "my-actions",
+        cancelButton: "order-1 right-gap",
+        confirmButton: "order-2",
+        denyButton: "order-3",
+      },
+    }).then((result) => {
+      if (result.isConfirmed) {
+        const installedAppsNum = installedApps.map((id) => Number(id));
+        const updatedInstalledApps = installedAppsNum.filter(
+          (installedAppId) => installedAppId !== appId
+        );
+        localStorage.setItem("appList", JSON.stringify(updatedInstalledApps));
+        setInstalledApps(updatedInstalledApps);
+
+        Swal.fire("Uninstalled!", `${title} has been uninstalled.`, "success");
+      } else if (result.isDenied) {
+        Swal.fire("Cancelled", "App was not uninstalled.", "info");
+      }
+    });
   };
 
   return (

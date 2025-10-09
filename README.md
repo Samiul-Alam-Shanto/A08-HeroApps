@@ -22,7 +22,7 @@ This project demonstrates advanced **React UI development**, **state management*
 | **React Router DOM**  | Client-side routing for smooth navigation              |
 | **Tailwind CSS**      | Utility-first CSS framework for responsive design      |
 | **DaisyUI**           | Prebuilt Tailwind components for faster UI development |
-| **React Toastify**    | Elegant toast notifications for user feedback          |
+| **React Sweet Alert** | Elegant toast notifications for user feedback          |
 | **Recharts**          | Data visualization for app ratings and statistics      |
 | **Axios**             | HTTP client for API integration and data fetching      |
 | **Vite**              | Lightning-fast build tool and dev server               |

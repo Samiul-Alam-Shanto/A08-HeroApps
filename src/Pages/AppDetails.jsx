@@ -17,7 +17,7 @@ import {
 import AppDetailsError from "./ErrorPages/AppDetailsError";
 import Loading from "../components/Loading";
 import { addToInstallLS, getInstalledApp } from "../utilities/addToLS";
-import { toast } from "react-toastify";
+import Swal from "sweetalert2";
 
 const AppDetails = () => {
   const [installedApps, setInstalledApps] = useState(getInstalledApp());
@@ -43,9 +43,27 @@ const AppDetails = () => {
   } = app;
 
   const handleInstallBtn = (id) => {
-    toast.success(`${title} Installed`);
-    addToInstallLS(id);
-    setInstalledApps(getInstalledApp());
+    Swal.fire({
+      title: "Install ?",
+      showDenyButton: true,
+      showCancelButton: true,
+      confirmButtonText: "Yes",
+      denyButtonText: "No",
+      customClass: {
+        actions: "my-actions",
+        cancelButton: "order-1 right-gap",
+        confirmButton: "order-2",
+        denyButton: "order-3",
+      },
+    }).then((result) => {
+      if (result.isConfirmed) {
+        addToInstallLS(id);
+        setInstalledApps(getInstalledApp());
+        Swal.fire(`${title} Installed`, "", "success");
+      } else if (result.isDenied) {
+        Swal.fire("Not Installed", "", "info");
+      }
+    });
   };
 
   const isInstalled = installedApps.includes(id);

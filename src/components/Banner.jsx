@@ -5,8 +5,8 @@ import heroImg from "../assets/hero.png";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto py-5">
-      <div className="flex flex-col items-center justify-center text-center">
+    <div className="container mx-auto py-5 ">
+      <div className="flex flex-col items-center justify-center text-center ">
         <h2 className="font-bold text-6xl ">
           We Build <br />{" "}
           <span className="text-gradient font-black">Productive</span> Apps
@@ -17,13 +17,13 @@ const Banner = () => {
           into digital experiences that truly make an impact.
         </p>
         <div className="flex items-center gap-5 mt-5">
-          <button className="flex items-center gap-1 border border-gray-300 p-2 rounded-lg cursor-pointer font-bold hover:bg-gray-50  hover:scale-110 transition ease-in">
+          <button className="flex items-center gap-1 border border-gray-300 p-2 rounded-lg cursor-pointer font-bold hover:bg-gray-50 hover:shadow-lg  hover:scale-110 transition ease-in">
             <img src={playStoreImg} alt="" />
             <a target="_blank" href="https://play.google.com/store/games?hl=en">
               Google Play
             </a>
           </button>
-          <button className="flex items-center gap-1 border border-gray-300 p-2 rounded-lg  cursor-pointer font-bold hover:bg-gray-50  hover:scale-110 transition ease-in">
+          <button className="flex items-center gap-1 border border-gray-300 p-2 rounded-lg  cursor-pointer font-bold hover:bg-gray-50 hover:shadow-lg  hover:scale-110 transition ease-in">
             <img src={appStoreImg} alt="" />
             <a target="_blank" href="https://www.apple.com/app-store/">
               App Store
@@ -32,7 +32,7 @@ const Banner = () => {
         </div>
       </div>
       <div>
-        <img className="mx-auto mt-8" src={heroImg} alt="Mobile" />
+        <img className="mx-auto mt-8 px-2" src={heroImg} alt="Mobile" />
         <div className="bg-gradient text-white flex flex-col gap-5 p-8">
           <h3 className="font-bold text-5xl text-center">
             Trusted by Millions, Built for You
