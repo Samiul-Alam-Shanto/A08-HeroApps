@@ -6,12 +6,21 @@ import InstalledAppCard from "../components/InstalledAppCard";
 
 const MyInstallation = () => {
   const [installedApps, setInstalledApps] = useState(getInstalledApp());
+  const [sort, setSort] = useState("none");
   const { apps, loading } = useApps();
   const installedAppsNum = installedApps.map((id) => Number(id));
   const myInstalledApps = apps.filter((app) =>
     installedAppsNum.includes(app.id)
   );
   // console.log(myInstalledApps);
+
+  const sortedApps = (() => {
+    if (sort === "LowToHigh") {
+      return [...myInstalledApps].sort((a, b) => a.downloads - b.downloads);
+    } else if (sort === "HighToLow") {
+      return [...myInstalledApps].sort((a, b) => b.downloads - a.downloads);
+    } else return myInstalledApps;
+  })();
 
   if (loading) {
     return <Loading />;
@@ -26,15 +35,24 @@ const MyInstallation = () => {
       </div>
       <div className="flex items-center justify-between">
         <p className="font-bold">({myInstalledApps.length}) Apps Found</p>
-        <select defaultValue="none" className="select">
-          <option>Sort By Size</option>
-          <option>High to Low</option>
-          <option>Low to High</option>
+        <select
+          value={sort}
+          onChange={(e) => setSort(e.target.value)}
+          className="select"
+        >
+          <option value={"none"}>Sort By Downloads</option>
+          <option value={"HighToLow"}>High to Low</option>
+          <option value={"LowToHigh"}>Low to High</option>
         </select>
       </div>
       <div>
-        {myInstalledApps.map((installedApp) => (
-          <InstalledAppCard key={installedApp.id} installedApp={installedApp} />
+        {sortedApps.map((installedApp) => (
+          <InstalledAppCard
+            setInstalledApps={setInstalledApps}
+            installedApps={installedApps}
+            key={installedApp.id}
+            installedApp={installedApp}
+          />
         ))}
       </div>
     </div>
