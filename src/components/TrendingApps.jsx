@@ -2,10 +2,12 @@ import React from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "./AppsCard";
 import { Link } from "react-router";
+import Loading from "./Loading";
 
 const TrendingApps = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
   const trendingApps = apps.slice(0, 8);
+  if (loading) return <Loading />;
 
   return (
     <div className="py-4 flex flex-col justify-center items-center text-center">

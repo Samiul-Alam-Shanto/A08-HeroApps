@@ -1,5 +1,3 @@
-import { toast } from "react-toastify";
-
 const getInstalledApp = () => {
   const installedAppSTR = localStorage.getItem("appList");
   if (installedAppSTR) {

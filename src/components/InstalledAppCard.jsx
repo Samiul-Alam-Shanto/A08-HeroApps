@@ -1,6 +1,5 @@
 import { Download, Star } from "lucide-react";
 import React from "react";
-import { getInstalledApp } from "../utilities/addToLS";
 import { toast } from "react-toastify";
 
 const InstalledAppCard = ({
@@ -18,7 +17,7 @@ const InstalledAppCard = ({
     const updatedInstalledAppsSTR = JSON.stringify(updatedInstalledApps);
     localStorage.setItem("appList", updatedInstalledAppsSTR);
     setInstalledApps(updatedInstalledApps);
-    toast(`${title} Uninstalled`);
+    toast.success(`${title} Uninstalled`);
   };
 
   return (

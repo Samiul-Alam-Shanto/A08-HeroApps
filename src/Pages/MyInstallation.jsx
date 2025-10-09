@@ -7,12 +7,11 @@ import InstalledAppCard from "../components/InstalledAppCard";
 const MyInstallation = () => {
   const [installedApps, setInstalledApps] = useState(getInstalledApp());
   const [sort, setSort] = useState("none");
-  const { apps, loading } = useApps();
+  const { apps } = useApps();
   const installedAppsNum = installedApps.map((id) => Number(id));
   const myInstalledApps = apps.filter((app) =>
     installedAppsNum.includes(app.id)
   );
-  // console.log(myInstalledApps);
 
   const sortedApps = (() => {
     if (sort === "LowToHigh") {
@@ -22,9 +21,6 @@ const MyInstallation = () => {
     } else return myInstalledApps;
   })();
 
-  if (loading) {
-    return <Loading />;
-  }
   return (
     <div className="container mx-auto px-2 py-8">
       <div className="flex flex-col justify-between items-center pb-10">

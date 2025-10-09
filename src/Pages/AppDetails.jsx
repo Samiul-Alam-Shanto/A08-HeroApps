@@ -22,11 +22,11 @@ import { toast } from "react-toastify";
 const AppDetails = () => {
   const [installedApps, setInstalledApps] = useState(getInstalledApp());
 
-  const { apps, loading } = useApps();
+  const { apps } = useApps();
   const { id } = useParams();
 
   const app = apps.find((p) => p.id == id);
-  if (loading) return <Loading />;
+
   if (!app) {
     return <AppDetailsError />;
   }
@@ -43,7 +43,7 @@ const AppDetails = () => {
   } = app;
 
   const handleInstallBtn = (id) => {
-    toast(`${title} Installed`);
+    toast.success(`${title} Installed`);
     addToInstallLS(id);
     setInstalledApps(getInstalledApp());
   };

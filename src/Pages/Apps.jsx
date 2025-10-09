@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "../components/AppsCard";
 import NoAppFound from "./ErrorPages/NoAppFound";
@@ -7,10 +7,7 @@ import Loading from "../components/Loading";
 const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
-
-  if (loading) {
-    return <Loading />;
-  }
+  const [searchLoading, setSearchLoading] = useState(false);
 
   const word = search.toLocaleLowerCase().replace(/\s+/g, "");
   const filteredApps = apps.filter((singleApp) =>
@@ -18,6 +15,14 @@ const Apps = () => {
   );
 
   const searchedApps = word ? filteredApps : apps;
+
+  useEffect(() => {
+    setSearchLoading(true);
+    const timeout = setTimeout(() => {
+      setSearchLoading(false);
+    }, 200);
+    return () => clearTimeout(timeout);
+  }, [word]);
 
   return (
     <div className="container mx-auto px-2 py-8">
@@ -55,13 +60,19 @@ const Apps = () => {
           />
         </label>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-5 px-2 ">
-        {searchedApps.length > 0 ? (
-          searchedApps.map((app) => <AppsCard key={app.id} app={app} />)
-        ) : (
-          <NoAppFound />
-        )}
-      </div>
+      {searchLoading ? (
+        <Loading />
+      ) : searchedApps.length != 0 ? (
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-5 px-2 ">
+          {searchedApps.map((app) => (
+            <AppsCard key={app.id} app={app} />
+          ))}
+        </div>
+      ) : loading ? (
+        <Loading />
+      ) : (
+        <NoAppFound />
+      )}
     </div>
   );
 };

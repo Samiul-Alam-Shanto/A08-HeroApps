@@ -5,9 +5,9 @@ const Loading = () => {
   return (
     <div>
       <div className="flex justify-center items-center">
-        <h1 className="text-9xl flex items-center font-black">
+        <h1 className="text-4xl md:text-7xl lg:text-9xl flex items-center font-black">
           L{"  "}
-          <span className="w-28  animate-spin scale-125">
+          <span className="w-16 md:w-22 lg:w-28  animate-spin scale-125">
             <img src={logo} alt="" />
           </span>
           {"  "}O A D I N G

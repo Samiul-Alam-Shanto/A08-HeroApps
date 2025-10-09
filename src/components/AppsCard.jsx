@@ -9,11 +9,7 @@ const AppsCard = ({ app }) => {
     <Link to={`/apps/${id}`}>
       <div className="card bg-base-100 p-2 shadow-sm hover:scale-110 transition ease-in-out">
         <figure className="rounded-lg">
-          <img
-            className="w-full h-[250px] object-cover"
-            src={image}
-            alt="Shoes"
-          />
+          <img className="w-full h-[250px] " src={image} alt="Logo" />
         </figure>
 
         <div className="card-body">
