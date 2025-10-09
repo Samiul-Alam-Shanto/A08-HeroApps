@@ -35,11 +35,11 @@ const Footer = () => {
       </div>
       <hr />
       <div>
-        <div className="footer sm:footer-horizontal bg-gradient text-neutral-content items-center  p-4">
-          <aside className="grid-flow-col items-center ">
+        <div className="footer sm:footer-horizontal bg-gradient text-neutral-content items-center p-4">
+          <aside className="grid-flow-col mx-auto md:mx-0 items-center ">
             <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
           </aside>
-          <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+          <nav className="grid-flow-col mx-auto sm:mx-0 gap-4 md:place-self-center md:justify-self-end">
             <a href="https://x.com/" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
