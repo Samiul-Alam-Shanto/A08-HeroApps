@@ -21,7 +21,7 @@ const TrendingApps = () => {
         ))}
       </div>
       <Link to="/apps">
-        <button className="relative overflow-hidden px-6 py-2 rounded-lg bg-gradient text-white font-semibold shadow-md cursor-pointer hover:scale-110 transition ease-in-out">
+        <button className="relative overflow-hidden px-6 py-2 mt-2 rounded-lg bg-gradient text-white font-semibold shadow-md cursor-pointer hover:scale-110 transition ease-in-out">
           <span className="relative z-10">Show All</span>
           <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent animate-[shine_2s_linear_infinite]"></span>
         </button>

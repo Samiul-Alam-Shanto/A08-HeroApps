@@ -12,7 +12,7 @@ const Root = () => {
     setIsRouting(true);
     const timeout = setTimeout(() => {
       setIsRouting(false);
-    }, 200);
+    }, 100);
     return () => clearTimeout(timeout);
   }, [location]);
 
