@@ -63,7 +63,7 @@ const Apps = () => {
       {searchLoading ? (
         <Loading />
       ) : searchedApps.length != 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-5 px-2 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 py-5 px-2 ">
           {searchedApps.map((app) => (
             <AppsCard key={app.id} app={app} />
           ))}

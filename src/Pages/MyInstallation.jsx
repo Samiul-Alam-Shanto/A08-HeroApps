@@ -26,7 +26,7 @@ const MyInstallation = () => {
       <div className="flex flex-col justify-between items-center pb-10">
         <h2 className="font-bold text-4xl">Your Installed Apps</h2>
         <p className="text-gray-400 pt-1">
-          Explore All Apps on the Market developed by us. We code for Millions
+          Explore All Trending Apps on the Market developed by us
         </p>
       </div>
       <div className="flex items-center justify-between">

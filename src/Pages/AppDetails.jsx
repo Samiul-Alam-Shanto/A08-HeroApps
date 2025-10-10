@@ -18,6 +18,7 @@ import AppDetailsError from "./ErrorPages/AppDetailsError";
 import Loading from "../components/Loading";
 import { addToInstallLS, getInstalledApp } from "../utilities/addToLS";
 import Swal from "sweetalert2";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const [installedApps, setInstalledApps] = useState(getInstalledApp());
@@ -43,27 +44,9 @@ const AppDetails = () => {
   } = app;
 
   const handleInstallBtn = (id) => {
-    Swal.fire({
-      title: "Install ?",
-      showDenyButton: true,
-      showCancelButton: true,
-      confirmButtonText: "Yes",
-      denyButtonText: "No",
-      customClass: {
-        actions: "my-actions",
-        cancelButton: "order-1 right-gap",
-        confirmButton: "order-2",
-        denyButton: "order-3",
-      },
-    }).then((result) => {
-      if (result.isConfirmed) {
-        addToInstallLS(id);
-        setInstalledApps(getInstalledApp());
-        Swal.fire(`${title} Installed`, "", "success");
-      } else if (result.isDenied) {
-        Swal.fire("Not Installed", "", "info");
-      }
-    });
+    toast.success(`${title} Installed`);
+    addToInstallLS(id);
+    setInstalledApps(getInstalledApp());
   };
 
   const isInstalled = installedApps.includes(id);
@@ -126,13 +109,19 @@ const AppDetails = () => {
           <button
             disabled={isInstalled}
             onClick={() => handleInstallBtn(id)}
-            className={`py-1 px-2 rounded-sm text-white ${
+            className={`relative overflow-hidden py-1 px-3 rounded-sm text-white font-semibold transition-all duration-300 hover:scale-110 ${
               isInstalled
                 ? "bg-gray-400 cursor-not-allowed"
-                : "bg-[#00D390] cursor-pointer"
+                : "bg-[#00D390] cursor-pointer shadow-md"
             }`}
           >
-            {isInstalled ? "Installed" : `Install Now (${size}MB)`}
+            <span className="relative z-10">
+              {isInstalled ? "Installed" : `Install Now (${size}MB)`}
+            </span>
+
+            {!isInstalled && (
+              <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent animate-[shine_2s_linear_infinite]"></span>
+            )}
           </button>
         </div>
       </div>

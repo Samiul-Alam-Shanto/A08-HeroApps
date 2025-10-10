@@ -17,3 +17,11 @@
 .bg-gradient {
   background: linear-gradient(120deg, #632ee3, #9f62f2);
 }
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

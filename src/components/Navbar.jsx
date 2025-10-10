@@ -66,10 +66,11 @@ const Navbar = () => {
         <a
           href="https://github.com/Samiul-Alam-Shanto"
           target="_blank"
-          className="btn  bg-gradient hover:animate-pulse "
+          className="relative overflow-hidden flex items-center gap-2 px-4 py-2 rounded-md text-white font-semibold bg-gradient shadow-md transition-all duration-300 hover:scale-105"
         >
           <img src={githubImg} alt="github logo" />
-          Contribute
+          <span className="relative z-10">Contribute</span>
+          <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-[shine_2s_linear_infinite]"></span>
         </a>
       </div>
     </div>
